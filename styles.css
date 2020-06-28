@@ -373,6 +373,34 @@ footer {
   height: 50vh;
 }
 
+.three-images button{
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+  position: relative;
+  top: 250px;
+}
+
+.three-images button:hover{
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.three-images button:active{
+  position:relative;
+	top:1px;
+}
+
 .image{
   float: left;
   width: 33.2%;
@@ -419,7 +447,27 @@ footer {
   height: 100%;
 }
 
-.gallery-about{
+div.gallery-about{
   text-align: center;
-  height: 100%;
+  height: 110vh;
+  display: table;
+  width: fit-content;
+}
+
+
+.about-pictures{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  position: relative;
+  left: 120px;
+}
+
+.contact-content{
+  margin-bottom: 30px;
+}
+
+.contact-form{
+  text-align: center;
 }
