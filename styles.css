@@ -8,7 +8,7 @@ html {
   padding: 0px;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -343,65 +343,66 @@ footer {
   font-weight: bold;
 }
 
-#policy-text h1, p{
+#policy-text h1,
+p {
   text-align: center;
 }
 
-#policy-text ol{
+#policy-text ol {
   padding-left: 0.5em;
   text-align: left;
 }
 
-#policy-text ol li{
+#policy-text ol li {
   list-style-type: disc;
   list-style-position: inside;
-  margin-left: 1em; 
+  margin-left: 1em;
 }
 
-#privacy-policy{
+#privacy-policy {
   margin-bottom: 30px;
 }
 
-#about{
+#about {
   max-width: 100%;
   max-width: 100%;
   margin-bottom: 60px;
 }
 
-.three-images{
+.three-images {
   margin-top: 25px;
   height: 50vh;
 }
 
-.three-images button{
+.three-images button {
   box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-  text-shadow:0px 1px 0px #3d768a;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
   position: relative;
   top: 250px;
 }
 
-.three-images button:hover{
-  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+.three-images button:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
 }
 
-.three-images button:active{
-  position:relative;
-	top:1px;
+.three-images button:active {
+  position: relative;
+  top: 1px;
 }
 
-.image{
+.image {
   float: left;
   width: 33.2%;
   background-size: cover;
@@ -413,7 +414,7 @@ footer {
   margin-top: 15px;
 }
 
-.image h1{
+.image h1 {
   font-size: x-large;
   padding: 0px;
   margin-top: 8px;
@@ -424,15 +425,15 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#image-left{
+#image-left {
   background-image: url(images/restaurants&bars.jpg);
 }
 
-#image-mid{
+#image-mid {
   background-image: url(images/chef-careers.jpg);
 }
 
-#image-right{
+#image-right {
   background-image: url(images/private-dinning.jpg);
 }
 
@@ -442,20 +443,19 @@ footer {
   clear: both;
 }
 
-#about{
+#about {
   margin-bottom: 30px;
   height: 100%;
 }
 
-div.gallery-about{
+div.gallery-about {
   text-align: center;
   height: 110vh;
   display: table;
   width: fit-content;
 }
 
-
-.about-pictures{
+.about-pictures {
   float: left;
   margin: 0px;
   padding: 0px;
@@ -464,68 +464,68 @@ div.gallery-about{
   left: 120px;
 }
 
-.contact-content{
+.contact-content {
   margin-bottom: 30px;
 }
 
-.contact-form{
+.contact-form {
   text-align: center;
 }
 
-label{
+label {
   font-weight: bold;
 }
 
-input{
+input {
   width: 350px;
   height: 20px;
 }
 
-#submit-button{
+#submit-button {
   width: 100px;
   font-weight: bold;
-  box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
-	background-color:#768d87;
-	border-radius:5px;
-	border:1px solid #566963;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
-	text-decoration:none;
-  text-shadow:0px -1px 0px #2b665e;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
   text-align: center;
 }
 
-#submit-button:hover{
-  background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-	background-color:#6c7c7c;
+#submit-button:hover {
+  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+  background-color: #6c7c7c;
 }
 
-#contact-information{
-  margin-top: 30px
+#contact-information {
+  margin-top: 30px;
 }
 
-#google-map-contact{
+#google-map-contact {
   width: 100%;
   height: 50vh;
 }
 
-#faq{
+#faq {
   text-align: center;
 }
 
-#faq-content{
+#faq-content {
   margin-bottom: 30px;
 }
 
-#faq ol li{
+#faq ol li {
   list-style-type: disc;
   list-style-position: inside;
-  margin-left: 1em; 
+  margin-left: 1em;
 }
