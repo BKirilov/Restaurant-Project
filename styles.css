@@ -515,3 +515,17 @@ input{
   width: 100%;
   height: 50vh;
 }
+
+#faq{
+  text-align: center;
+}
+
+#faq-content{
+  margin-bottom: 30px;
+}
+
+#faq ol li{
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 1em; 
+}
