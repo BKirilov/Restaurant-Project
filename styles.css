@@ -93,7 +93,7 @@ nav ul li a {
 
 #main-img {
   max-height: 100%;
-  max-width: 100%;
+  width: 1618px;
 }
 
 .row {
@@ -443,16 +443,32 @@ p {
   clear: both;
 }
 
-#about {
-  margin-bottom: 30px;
-  height: 100%;
+.content-about {
+  margin-bottom: 0px;
 }
 
 div.gallery-about {
   text-align: center;
-  height: 110vh;
   display: table;
   width: fit-content;
+}
+#full-gallery {
+  font-size: 25px;
+  height: 242px;
+  width: 323px;
+  background: grey;
+  margin: 0px;
+}
+
+#full-gallery h3 {
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 60px;
 }
 
 .about-pictures {
@@ -528,4 +544,221 @@ input {
   list-style-type: disc;
   list-style-position: inside;
   margin-left: 1em;
+}
+
+.recipe-page {
+  display: block;
+  width: 100%;
+}
+
+.recipe-title {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin: 50px;
+}
+.recipe-title h2 {
+  font-weight: 400;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 22px;
+}
+
+.recipe-image {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.imagebg {
+  background-size: cover;
+}
+
+.imagebg img {
+  width: 100%;
+  height: auto;
+}
+
+.imagebg.mobile {
+  display: none;
+}
+
+.recipe-container {
+  margin: 0 50px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+section.recipe-page .recipe-ingredients {
+  padding-right: 60px;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+section.recipe-page .recipe-ingredients h3 {
+  font-weight: 400;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+section.recipe-page p {
+  margin-bottom: 10px;
+  color: #101010;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+}
+
+section.recipe-page strong {
+  font-weight: 700;
+}
+
+aside ul.recipe-division {
+  padding-left: 40px;
+  margin: 20px 0;
+  list-style-type: disc;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(52, 52, 52, 0.6);
+}
+
+aside ul li,
+aside ol li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+  margin-bottom: 20px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+section.recipe-page .recipe-instructions h3 {
+  font-weight: 400;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.recipe-instructions ol li {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  border-left: 1px solid #343434;
+  vertical-align: baseline;
+  display: list-item;
+  padding: 0 0 0 20px;
+  margin: 0 0 6px 30px;
+  margin-bottom: 30px;
+  min-height: 30px;
+}
+
+.recipe-instructions ol.recipe-division {
+  counter-reset: li;
+  margin-left: 0;
+  padding-left: 0;
+  padding: 14px 0;
+}
+
+.recipe-instructions ol.recipe-division li {
+  position: relative;
+  margin: 0 0 6px 30px;
+  padding: 0 0 0 20px;
+  list-style: none;
+  margin-bottom: 30px;
+  min-height: 30px;
+  color: #101010;
+}
+
+.clearfix::before {
+  content: "";
+  display: table;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.pure-g {
+  letter-spacing: -0.31em;
+  text-rendering: optimizeSpeed;
+}
+
+strong {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  color: white;
+}
+
+hr.flourish.three-dots {
+  max-width: 60px;
+}
+
+hr.flourish {
+  display: block;
+  height: 8px;
+  text-align: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background: white;
+  top: 60px;
+}
+
+hr.flourish::before {
+  background: white;
 }
