@@ -228,16 +228,23 @@ div.gallery {
   text-align: center;
 }
 
-.gallery p {
+#full-gallery {
   font-size: 25px;
-  height: 246px;
-  width: 327px;
+  height: 244px;
+  width: 323px;
   background: grey;
-  margin: 0px;
+  margin: 5px;
 }
 
-.galley a p:hover {
-  background: red;
+#full-gallery h3 {
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 60px;
 }
 
 .pictures {
@@ -262,7 +269,7 @@ div.gallery img {
   size: 5px;
 }
 
-.gallery a:hover {
+.gallery a img:hover {
   size: 5px;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -276,7 +283,7 @@ div.gallery img {
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 40px;
   font-size: 40px;
   color: white;
 }
@@ -332,7 +339,7 @@ div.gallery img {
 }
 
 .before-footer nav ul li {
-  width: 19%;
+  width: 24%;
   margin-right: 13px;
 }
 
@@ -452,7 +459,7 @@ div.gallery-about {
   display: table;
   width: fit-content;
 }
-#full-gallery {
+#full-a-gallery {
   font-size: 25px;
   height: 242px;
   width: 323px;
@@ -460,7 +467,7 @@ div.gallery-about {
   margin: 0px;
 }
 
-#full-gallery h3 {
+#full-a-gallery h3 {
   letter-spacing: 0.6px;
   font-weight: 700;
   font-size: 2rem;
@@ -706,6 +713,135 @@ section.recipe-page .recipe-instructions h3 {
   color: #101010;
 }
 
+/* careers.html */
+
+.content-careers {
+  margin-bottom: 90px;
+  height: 100%;
+}
+
+.careers-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.careers-text h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.careers-text p {
+  font-weight: 600;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.table h3 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 50px;
+  color: teal;
+}
+
+.career-row {
+  height: 35vh;
+}
+
+.career-column {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.career-column button {
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 35px;
+  text-decoration: none;
+  position: relative;
+  top: 150px;
+  border: none;
+}
+
+.career-column button:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.career-column button:active {
+  position: relative;
+  opacity: 0.8;
+  border: none;
+  text-decoration: none;
+}
+
+#front-of-house {
+  background-image: url(images/careers-front_of_house.jpg);
+}
+
+#chefs {
+  background-image: url(images/careers-chefs.jpg);
+}
+
+#support-office {
+  background-image: url(images/careers-support_office.jpg);
+}
+
+#management {
+  background-image: url(images/careers-management.jpg);
+}
+
+.gallery-careers-table {
+  height: 60vh;
+}
+
+.gallery-row {
+  height: 32.65vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.career-gallery-column {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+  text-align: center;
+  background: grey;
+}
+
+#full-c-gallery {
+  width: 25%;
+  height: 100%;
+  background: grey;
+  margin: 0px;
+}
+
+#full-c-gallery h3 {
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+/* random global stuff */
+
 .clearfix::before {
   content: "";
   display: table;
@@ -761,4 +897,20 @@ hr.flourish {
 
 hr.flourish::before {
   background: white;
+}
+
+.underline {
+  display: block;
+  box-sizing: content-box;
+  color: white;
+  max-width: 300px;
+  height: 8px;
+  text-align: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background: white;
+  top: 45px;
+  border: 1px solid white;
 }
