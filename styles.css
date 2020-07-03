@@ -340,7 +340,9 @@ div.gallery img {
 
 .before-footer nav ul li {
   width: 24%;
-  margin-right: 13px;
+  height: 100%;
+  margin-top: 20px;
+  margin-right: 12px;
 }
 
 footer {
@@ -808,7 +810,7 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 .gallery-row {
-  height: 32.65vh;
+  height: 31vh;
   margin: 0px;
   padding: 0px;
 }
@@ -838,6 +840,80 @@ section.recipe-page .recipe-instructions h3 {
   text-align: center;
   position: relative;
   top: 60px;
+}
+
+/* reserve.html */
+
+#content-reserve {
+  margin-bottom: 0px;
+}
+
+#reserve-top-text {
+  margin-top: 20px;
+  text-align: centers;
+}
+
+#reserve-top-text h1 {
+  margin-bottom: 0px;
+}
+
+#reserve-top-text p {
+  margin: 0 200px 0 200px;
+}
+
+#underline-reserve {
+  margin: 0px auto;
+  margin-bottom: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.reserve-row form {
+  text-align: center;
+  width: 100%;
+}
+
+.reserve-column {
+  margin-top: 30px;
+  display: flex;
+}
+
+.reserve-column img {
+  width: 50%;
+  height: 27rem;
+}
+
+#reserve-table #choose-restaurant,
+#date,
+#time,
+#size,
+#fname,
+#lname,
+#email,
+#phone {
+  width: 30%;
+}
+
+#reserve-button {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 100px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+
+#reserve-button:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
 }
 
 /* random global stuff */

@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="content">
+      <div class="content-reserve">
         <header id="header">
           <h1 id="title"><a href="index.html">BK RESTAURANTS</a></h1>
           <nav id="navbar">
@@ -30,17 +30,107 @@
             </ul>
           </nav>
         </header>
-        <div id="about">
-          <p>test</p>
+        <div id="reserve-top-text">
+          <h1>Book a Table</h1>
+          <div class="underline" id="underline-reserve"></div>
+          <br />
+          <p>
+            We look forward to welcoming you to our restaurants. Your wellbeing
+            is important to us, please note we have introduced new measures into
+            our restaurants, including social distancing, enhanced cleaning and
+            hand sanitiser stations. If you or any of your party are feeling
+            unwell, especially if you have a high temperature, a new persistent
+            cough or a loss of taste or smell, please contact us to cancel your
+            booking.
+          </p>
+        </div>
+        <div class="reserve-row">
+          <div class="reserve-column">
+            <img src="images/reserve-big-image.jpg" alt="" />
+            <img src="images/reserve-big-image2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="reserve-row">
+          <div class="reserve-column">
+            <form action="" id="reserve-table">
+              <h1>Reserve A Table Now</h1>
+              <br />
+              <label for="choose-restaurant">Choose Restaurant:</label> <br />
+              <select name="choose-restaurant" id="choose-restaurant">
+                <option value="BK Restaurant - Beverly Hills"
+                  >BK Restaurant - Beverly Hills
+                </option>
+              </select>
+              <br />
+              <label for="date">Date:</label> <br />
+              <input type="date" id="date" required />
+              <br />
+              <label for="time">Time:</label><br />
+              <input type="time" id="time" required />
+              <br />
+              <label for="size">Party Size:</label> <br />
+              <input type="number" id="size" max="25" required />
+              <br />
+              <label for="fname">First Name:</label><br />
+              <input
+                type="text"
+                id="fname"
+                placeholder="Your First Name"
+                required
+              />
+              <br />
+              <label for="lname">Last Name:</label><br />
+              <input
+                type="text"
+                id="lname"
+                placeholder="Your Last Name"
+                required
+              />
+              <br />
+              <label for="email">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                placeholder="emailexample@mail.com"
+                required
+              />
+              <br />
+              <label for="phone">Phone:</label><br />
+              <input
+                type="tel"
+                id="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="123-123-1234"
+                required
+              />
+              <br />
+              <label for="marketing"
+                >Receive latest marketing information by email from BK
+                Restaurants!</label
+              ><br />
+              <input type="checkbox" id="marketing" value="marketing" />
+              <br />
+              <br />
+              <button id="reserve-button" type="submit">Reserve Now</button>
+            </form>
+          </div>
         </div>
       </div>
       <div class="before-footer">
         <nav>
           <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="careers.html">Careers</a></li>
-            <li><a href="policy.html">Privacy Policy</a></li>
-            <li><a href="faq.html">FAQ</a></li>
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+            <a href="careers.html">
+              <li>Careers</li>
+            </a>
+            <a href="policy.html">
+              <li>Privacy Policy</li>
+            </a>
+            <a href="faq.html">
+              <li>FAQ</li>
+            </a>
           </ul>
         </nav>
       </div>
