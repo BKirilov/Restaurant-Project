@@ -715,7 +715,7 @@ section.recipe-page .recipe-instructions h3 {
   color: #101010;
 }
 
-/* careers.html */
+/* Careers - careers.html */
 
 .content-careers {
   margin-bottom: 90px;
@@ -842,7 +842,7 @@ section.recipe-page .recipe-instructions h3 {
   top: 60px;
 }
 
-/* reserve.html */
+/* Reserve A Table - reserve.html */
 
 #content-reserve {
   margin-bottom: 0px;
@@ -850,7 +850,7 @@ section.recipe-page .recipe-instructions h3 {
 
 #reserve-top-text {
   margin-top: 20px;
-  text-align: centers;
+  text-align: center;
 }
 
 #reserve-top-text h1 {
@@ -859,6 +859,7 @@ section.recipe-page .recipe-instructions h3 {
 
 #reserve-top-text p {
   margin: 0 200px 0 200px;
+  font-size: 1.3em;
 }
 
 #underline-reserve {
@@ -914,6 +915,74 @@ section.recipe-page .recipe-instructions h3 {
 #reserve-button:hover {
   background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
   background-color: #019ad2;
+}
+
+/* Restaurants & Bars - restaurants.html */
+
+.panel-restaurants {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.restaurant-row {
+  height: 100%;
+  text-align: center;
+  border: none;
+  display: flex;
+}
+
+.restaurant-column {
+  width: 25%;
+  border: 1px solid black;
+  padding-bottom: 1.5em;
+  margin: 0 5px 5px 5px;
+  background-color: #efca86;
+}
+
+.above-img {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.fa-utensils {
+  float: left;
+  margin-left: 6px;
+}
+
+.restaurant-column .r-img img {
+  width: 100%;
+  height: 16em;
+}
+
+.restaurant-column h4 {
+  font-size: 1.3em;
+}
+
+.restaurants-book-btn {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.restaurants-book-btn:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
 }
 
 /* random global stuff */
