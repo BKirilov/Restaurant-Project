@@ -996,11 +996,11 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 .above-menu-text {
-  width: 35%;
+  width: 40%;
   text-align: justify;
   position: relative;
   left: 50%;
-  margin-left: -17.5%;
+  margin-left: -20%;
   font-size: 1.2em;
 }
 
@@ -1019,19 +1019,16 @@ section.recipe-page .recipe-instructions h3 {
   text-align: center;
 }
 
-.menu-item-heading {
-  font-size: 1.3em;
+.menu-heading {
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 .menu-section_header {
   margin-bottom: 15px;
-  text-decoration: underline white;
+
 }
 
-.menu-section ol li {
-  text-decoration: none;
-  list-style-type: none;
-}
 
 .menu-row {
   height: 30%;
@@ -1042,6 +1039,12 @@ section.recipe-page .recipe-instructions h3 {
 
 .menu-column {
   width: 33%;
+  border-right: 1px solid black;
+  margin-bottom: 25px;
+}
+
+.menu-column:last-child{
+  border: none;
 }
 
 /* random global stuff */
