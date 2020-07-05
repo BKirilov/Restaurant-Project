@@ -502,7 +502,7 @@ label {
 }
 
 input {
-  width: 350px;
+  width: 30%;
   height: 20px;
 }
 
@@ -983,6 +983,65 @@ section.recipe-page .recipe-instructions h3 {
 .restaurants-book-btn:hover {
   background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
   background-color: #f6f6f6;
+}
+
+/* Menu - menu.html */
+
+.content-menu {
+  margin-bottom: 30px;
+}
+
+.menu-panel {
+  margin-bottom: 50px;
+}
+
+.above-menu-text {
+  width: 35%;
+  text-align: justify;
+  position: relative;
+  left: 50%;
+  margin-left: -17.5%;
+  font-size: 1.2em;
+}
+
+.above-menu h1 {
+  font-size: 40px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 400px;
+  margin-right: 400px;
+  color: black;
+  border: 1.5px solid white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-section {
+  text-align: center;
+}
+
+.menu-item-heading {
+  font-size: 1.3em;
+}
+
+.menu-section_header {
+  margin-bottom: 15px;
+  text-decoration: underline white;
+}
+
+.menu-section ol li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-row {
+  height: 30%;
+  display: flex;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.menu-column {
+  width: 33%;
 }
 
 /* random global stuff */
