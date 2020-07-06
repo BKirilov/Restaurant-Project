@@ -1046,6 +1046,117 @@ section.recipe-page .recipe-instructions h3 {
   border: none;
 }
 
+/* Private Dining & Events - dining.html */
+
+.content-private {
+  margin-bottom: 30px;
+}
+
+.underline-private {
+  display: block;
+  box-sizing: content-box;
+  color: white;
+  max-width: 350px;
+  height: 8px;
+  text-align: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background: white;
+  top: 0.5em;
+  border: 1px solid white;
+}
+
+.private-text-section {
+  margin-bottom: 7em;
+}
+
+.private-text-section h1 {
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+
+.private-text-section p {
+  font-size: 1.3em;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.private-row {
+  height: 55vh;
+  display: flex;
+  text-align: center;
+}
+
+.private-column {
+  width: 50%;
+}
+
+.column-inside {
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+}
+
+.column-inside p {
+  font-size: 1.3em;
+}
+
+.col {
+  background-repeat: no-repeat;
+  background-size: 800px;
+  object-fit: cover;
+}
+
+.wedding {
+  background-image: url(images/private-dinning-wedding.jpg);
+}
+
+.group-dining {
+  background-image: url(images/private-dining-group_dining.jpg);
+}
+
+.parties {
+  background-image: url(images/private-dinning-parties.jpg);
+}
+
+.filming-requests {
+  background-image: url(images/private-dinning-filming.jpg);
+  background-size: initial;
+}
+
+.meetings {
+  background-image: url(images/private-dinning-meetings.jpg);
+}
+
+.mitzvah {
+  background-image: url(images/private-dinning.jpg);
+}
+
+.private-button {
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #3a8a9e;
+  font-size: 22px;
+  padding: 10px 45px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.private-button:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+
 /* random global stuff */
 
 .clearfix::before {
