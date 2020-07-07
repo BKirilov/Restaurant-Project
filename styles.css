@@ -1157,6 +1157,78 @@ section.recipe-page .recipe-instructions h3 {
   background-color: #bab1ba;
 }
 
+/* Enquiry - enquire.html */
+
+.enquire-main-text {
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.enquire-main-text p {
+  font-size: 1.2em;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.enquiry-form {
+  background-color: grey;
+}
+
+.enquiry-form h1 {
+  color: white;
+}
+
+.enquiry-form h4 {
+  color: white;
+  font-size: 1.3em;
+}
+
+.enquiry-row {
+  height: 60vh;
+  text-align: center;
+  display: flex;
+}
+
+.enquiry-column {
+  width: 50%;
+}
+
+.enquiry-column input,
+select,
+textarea {
+  margin-top: 25px;
+}
+
+.enquiry-inputs {
+  width: 70%;
+  height: 5%;
+}
+
+#enquiry-form-btn {
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #3a8a9e;
+  font-size: 24px;
+  padding: 10px 35px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 42.5%;
+  text-transform: uppercase;
+}
+
+#enquiry-form-btn:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+
 /* random global stuff */
 
 .clearfix::before {
@@ -1230,4 +1302,11 @@ hr.flourish::before {
   background: white;
   top: 45px;
   border: 1px solid white;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none;
 }
