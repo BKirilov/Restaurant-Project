@@ -13,31 +13,30 @@
       src="https://kit.fontawesome.com/fe8d91ae50.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./javascript.js"></script>
     <title>BK Restaurants</title>
   </head>
   <body>
     <div class="container">
-      <header id="header">
+      <header id="header" class="sticky">
         <h1 id="title"><a href="index.html">BK RESTAURANTS</a></h1>
         <nav id="navbar">
-          <ul>
+          <ul id="myLinks">
             <li><a href="restaurants.html">Restaurants & Bars</a></li>
             <li><a href="reserve.html">Reserve A Table</a></li>
             <li><a href="dining.html">Private Dining & Events</a></li>
             <li><a href="menu.html">What's On The Menu</a></li>
             <li><a href="about.html">About Us</a></li>
           </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars" id="menu-icon"></i>
+          </a>
         </nav>
       </header>
       <div class="clear"></div>
       <div class="panel">
         <div id="panel-img">
-          <img
-            id="main-img"
-            class="responsive"
-            src="images/burger_main.jpg"
-            alt=""
-          />
+          <img id="main-img" src="images/burger_main.jpg" alt="" />
         </div>
       </div>
       <div class="row">
