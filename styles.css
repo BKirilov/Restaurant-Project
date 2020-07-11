@@ -281,7 +281,7 @@ nav a.icon:hover {
 #gordon-tips h1 {
   font-size: 2.5em;
   padding: 0;
-  margin: 25px 400px 0 400px;
+  margin: 35px 400px 5px 400px;
   color: white;
   border: 1px solid black;
 }
@@ -291,35 +291,47 @@ nav a.icon:hover {
   height: fit-content;
   margin-top: 15px;
   border: 1px solid black;
+  outline: none;
 }
 /* start of media for gordon tips */
 
-@media (max-width:1500px){
-  #gordon-video{
-    height: 1000px;
+@media (max-width: 1500px) {
+  #gordon-video {
+    height: 565px;
     width: 1000px;
     border: none;
+    outline: none;
   }
 }
 
-@media (max-width:1400px){
-  #gordon-tips h1{
+@media (max-width: 1400px) {
+  #gordon-tips h1 {
     font-size: 2.5em;
     margin: 25px 250px 0 250px;
   }
 }
 
-@media (max-width:1100px){
-  #gordon-tips h1{
+@media (max-width: 1100px) {
+  #gordon-tips h1 {
     font-size: 1.5em;
-    margin: 25px 200px 0 200px;
+    margin: 35px 200px 0 200px;
+  }
+  #gordon-video {
+    height: 400px;
+    width: 600px;
+    margin: 0;
   }
 }
 
-@media (max-width:600px){
-  #gordon-tips h1{
+@media (max-width: 600px) {
+  #gordon-tips h1 {
     font-size: 1.25em;
-    margin: 25px 150px 0 150px;
+    margin: 15px 150px 0 150px;
+  }
+
+  #gordon-video {
+    height: 250px;
+    width: 400px;
   }
 }
 
@@ -331,12 +343,9 @@ nav a.icon:hover {
 }
 
 #map h1 {
-  font-size: 40px;
+  font-size: 2em;
   color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: 15px 400px 15px 400px;
   border: 1px solid black;
 }
 
@@ -348,75 +357,55 @@ nav a.icon:hover {
 
 /* start of media for google map */
 
-@media (max-width:1500px){
-  #google-map{
+@media (max-width: 1500px) {
+  #google-map {
     width: 1000px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #map h1 {
+    font-size: 1.5em;
+    margin: 25px 200px 25px 200px;
+  }
+
+  #google-map {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  #map h1 {
+    font-size: 1.25em;
+    margin: 15px 150px 25px 150px;
+  }
+
+  #google-map {
+    width: 400px;
+    height: 250px;
   }
 }
 
 /* end of media for google map */
 
-div.gallery {
-  text-align: center;
-  height: 60vh;
-}
-
-.gallery h1 {
-  border: 1px solid black;
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  font-size: 40px;
+.gallery-careers-table h1 {
+  font-size: 2.5em;
+  padding: 0;
+  margin: 35px 400px 5px 400px;
   color: white;
-  text-align: center;
-}
-
-#full-gallery {
-  font-size: 25px;
-  height: 244px;
-  width: 323px;
-  background: grey;
-  margin: 5px;
-}
-
-#full-gallery h3 {
-  letter-spacing: 0.6px;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 24px;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  top: 60px;
-}
-
-.pictures {
-  float: left;
-  position: relative;
-  left: 125px;
-  right: 125px;
-  margin: 5px;
-  background-size: cover;
-}
-
-.pictures:hover {
-  background: rgba(255, 255, 255, 0.3);
-  size: 5px;
-}
-
-div.gallery img {
   border: 1px solid black;
 }
 
-.gallery img:hover {
-  size: 5px;
+/* start of media for Home - index.html gallery */
+
+@media (max-width: 1900px) {
+  .career-gallery-column {
+    width: 24%;
+  }
 }
 
-.gallery a img:hover {
-  size: 5px;
-  background: rgba(255, 255, 255, 0.3);
-}
+/* end of media for Home - index.html gallery */
 
 #social-media {
   text-align: center;
