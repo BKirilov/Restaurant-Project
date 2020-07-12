@@ -389,23 +389,6 @@ nav a.icon:hover {
 
 /* end of media for google map */
 
-.gallery-careers-table h1 {
-  font-size: 2.5em;
-  padding: 0;
-  margin: 35px 400px 5px 400px;
-  color: white;
-  border: 1px solid black;
-}
-
-/* start of media for Home - index.html gallery */
-
-@media (max-width: 1900px) {
-  .career-gallery-column {
-    width: 24%;
-  }
-}
-
-/* end of media for Home - index.html gallery */
 
 #social-media {
   text-align: center;
@@ -422,7 +405,7 @@ nav a.icon:hover {
 }
 
 #social-media p {
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   font-weight: bold;
 }
@@ -460,6 +443,57 @@ nav a.icon:hover {
 #insta:hover {
   font-size: 50px;
 }
+
+/* start of media for social media section on Home - index.html */
+
+@media (max-width: 1635px){
+  #social-media h1{
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 1100px){
+  #social-media h1{
+    font-size: 1.75em;
+    margin: 80px 200px 25px 200px;
+  }
+}
+
+@media (max-width: 950px){
+  #social-media{
+    margin-top: 0;
+  }
+
+  #social-media h1{
+    margin: 0px 200px 25px 200px;
+  }
+}
+
+@media (max-width: 750px){
+  #social-media{
+    margin-top: -50px;
+  }
+
+  #social-media h1{
+    margin: 0px 175px 25px 175px;
+  }
+}
+
+@media (max-width: 600px){
+  #social-media{
+    margin-top: 0px
+  }
+
+  #social-media h1{
+    font-size: 1.25em;
+    margin: 50px 150px 25px 150px
+  }
+
+  #social-media p{
+    font-size: 1em;
+  }
+}
+/* end of media for social media section on Home - index.html */
 
 .before-footer {
   margin-top: 30px;
@@ -944,8 +978,7 @@ section.recipe-page .recipe-instructions h3 {
 
 .gallery-row {
   height: 31vh;
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
 }
 
 .career-gallery-column {
@@ -954,7 +987,19 @@ section.recipe-page .recipe-instructions h3 {
   height: 100%;
   background-size: cover;
   text-align: center;
-  background: grey;
+}
+
+.gallery-careers-table h1 {
+  font-size: 2.5em;
+  padding: 0;
+  margin: 35px 400px 25px 400px;
+  color: white;
+  border: 1px solid black;
+}
+
+.career-gallery-column img{
+  max-width: 100%;
+  height: auto;
 }
 
 #full-c-gallery {
@@ -962,6 +1007,8 @@ section.recipe-page .recipe-instructions h3 {
   height: 100%;
   background: grey;
   margin: 0px;
+  display: flex;
+  flex-direction: row;
 }
 
 #full-c-gallery h3 {
@@ -974,6 +1021,61 @@ section.recipe-page .recipe-instructions h3 {
   position: relative;
   top: 60px;
 }
+
+/* start of media for careers and index galleries (most likely all) */
+
+@media (max-width:1635px){
+  .gallery-row{
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1100px){
+  .gallery-row{
+    margin-bottom: 70px;
+    height: 100px;
+  }
+
+  #pic{
+    height: 100px;
+  }
+}
+
+@media (max-width: 950px){
+  .gallery-careers-table h1{
+    font-size: 1.75em;
+    margin: 25px 200px 25px 200px;
+  }
+
+  .gallery-row{
+    height: 50px;
+  }
+
+  #pic{
+    height: 100px;
+  }
+}
+
+@media (max-width: 600px){
+  .gallery-careers-table{
+    height: 200px;
+  }
+
+  .gallery-careers-table h1{
+    font-size: 1.5em;
+    margin: 25px 150px 25px 150px;
+  }
+
+  .gallery-row{
+    height: 20px;
+  }
+
+  #pic{
+    height: 80px;
+  }
+}
+
+/* end of media for careers and index galleries (most likely all) */
 
 /* Reserve A Table - reserve.html */
 
