@@ -114,7 +114,50 @@ nav a.icon:hover {
   color: black;
 }
 
-/* media for header and navbar */
+/* mobnav!!! */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  position: sticky;
+}
+
+/* end of mobnav!!! */
+
+/* media for header, navbar, and mobnav */
 
 @media (max-width: 1635px) {
   nav ul li {
@@ -127,12 +170,24 @@ nav a.icon:hover {
 }
 
 @media (max-width: 1350px) {
-  #menu-icon {
-    display: initial;
-    float: right;
-    margin: 20px;
-  }
   nav ul li {
+    font-size: 0.75em;
+  }
+
+  #title {
+    font-size: 1.5em;
+    margin: 12px 0 20px 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .topnav {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
     display: none;
   }
 }
@@ -389,7 +444,6 @@ nav a.icon:hover {
 
 /* end of media for google map */
 
-
 #social-media {
   text-align: center;
 }
@@ -399,7 +453,7 @@ nav a.icon:hover {
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 15px;
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 40px;
   color: white;
 }
@@ -446,50 +500,50 @@ nav a.icon:hover {
 
 /* start of media for social media section on Home - index.html */
 
-@media (max-width: 1635px){
-  #social-media h1{
+@media (max-width: 1635px) {
+  #social-media h1 {
     margin-top: 200px;
   }
 }
 
-@media (max-width: 1100px){
-  #social-media h1{
+@media (max-width: 1100px) {
+  #social-media h1 {
     font-size: 1.75em;
     margin: 80px 200px 25px 200px;
   }
 }
 
-@media (max-width: 950px){
-  #social-media{
-    margin-top: 0;
+@media (max-width: 950px) {
+  #social-media {
+    margin-top: 20px;
   }
 
-  #social-media h1{
-    margin: 0px 200px 25px 200px;
+  #social-media h1 {
+    margin: -100px 200px 25px 200px;
   }
 }
 
-@media (max-width: 750px){
-  #social-media{
+@media (max-width: 750px) {
+  #social-media {
     margin-top: -50px;
   }
 
-  #social-media h1{
+  #social-media h1 {
     margin: 0px 175px 25px 175px;
   }
 }
 
-@media (max-width: 600px){
-  #social-media{
-    margin-top: 0px
+@media (max-width: 600px) {
+  #social-media {
+    margin-top: 0;
   }
 
-  #social-media h1{
+  #social-media h1 {
     font-size: 1.25em;
-    margin: 50px 150px 25px 150px
+    margin: 50px 150px 25px 150px;
   }
 
-  #social-media p{
+  #social-media p {
     font-size: 1em;
   }
 }
@@ -511,6 +565,25 @@ nav a.icon:hover {
   margin-top: 20px;
   margin-right: 12px;
 }
+/* start of media for before-footer */
+
+@media (max-width: 1400px) {
+  .before-footer nav ul li {
+    font-size: 0.75em;
+    justify-content: space-between;
+    width: 23%;
+  }
+}
+
+@media (max-width: 900px) {
+  .before-footer nav ul li {
+    font-size: 0.75em;
+    justify-content: space-between;
+    width: 22%;
+  }
+}
+
+/* end of media for before-footer */
 
 footer {
   background: white;
@@ -518,6 +591,27 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+
+/* start of media for footer */
+
+@media (max-width: 890px) {
+  footer p {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 700px) {
+  footer p {
+    font-size: 0.55em;
+  }
+  footer {
+    height: 10px;
+  }
+}
+
+/* end of media for footer */
+
+/* Privacy-Policy - policy.html  */
 
 #policy-text h1,
 p {
@@ -997,7 +1091,7 @@ section.recipe-page .recipe-instructions h3 {
   border: 1px solid black;
 }
 
-.career-gallery-column img{
+.career-gallery-column img {
   max-width: 100%;
   height: auto;
 }
@@ -1024,53 +1118,61 @@ section.recipe-page .recipe-instructions h3 {
 
 /* start of media for careers and index galleries (most likely all) */
 
-@media (max-width:1635px){
-  .gallery-row{
+@media (max-width: 1635px) {
+  .gallery-row {
     margin-bottom: 30px;
   }
 }
 
-@media (max-width: 1100px){
-  .gallery-row{
+@media (max-width: 1100px) {
+  .gallery-row {
     margin-bottom: 70px;
     height: 100px;
   }
 
-  #pic{
+  .gallery-careers-table {
+    height: 400px;
+  }
+
+  #pic {
     height: 100px;
   }
 }
 
-@media (max-width: 950px){
-  .gallery-careers-table h1{
+@media (max-width: 950px) {
+  .gallery-careers-table h1 {
     font-size: 1.75em;
     margin: 25px 200px 25px 200px;
   }
 
-  .gallery-row{
+  .gallery-careers-table {
+    height: 450px;
+  }
+
+  .gallery-row {
     height: 50px;
   }
 
-  #pic{
+  #pic {
     height: 100px;
   }
 }
 
-@media (max-width: 600px){
-  .gallery-careers-table{
-    height: 200px;
+@media (max-width: 600px) {
+  .gallery-careers-table {
+    height: 210px;
   }
 
-  .gallery-careers-table h1{
+  .gallery-careers-table h1 {
     font-size: 1.5em;
     margin: 25px 150px 25px 150px;
   }
 
-  .gallery-row{
+  .gallery-row {
     height: 20px;
   }
 
-  #pic{
+  #pic {
     height: 80px;
   }
 }
@@ -1564,10 +1666,10 @@ textarea {
   box-sizing: border-box;
 }
 
-.active,
+/* .active,
 .dot:hover {
   background-color: #717171;
-}
+} */
 
 .fade {
   -webkit-animation-name: fade;

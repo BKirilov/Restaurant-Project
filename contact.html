@@ -12,12 +12,13 @@
       src="https://kit.fontawesome.com/fe8d91ae50.js"
       crossorigin="anonymous"
     ></script>
+    <script src="javascript.js"></script>
     <title>Contact Us</title>
   </head>
   <body>
     <div class="container">
       <div class="contact-content">
-        <header id="header">
+        <header id="header" class="sticky">
           <h1 id="title"><a href="index.html">BK RESTAURANTS</a></h1>
           <nav id="navbar">
             <ul>
@@ -29,6 +30,20 @@
             </ul>
           </nav>
         </header>
+        <div class="topnav sticky">
+          <a href="index.html" class="active">BK RESTAURANTS</a>
+          <div id="myLinks">
+            <a href="restaurants.html">Restaurants & Bars</a>
+            <a href="reserve.html">Reserve A Table</a>
+            <a href="dining.html">Private Dining & Events</a>
+            <a href="menu.html">What's On The Menu</a>
+            <a href="about.html">About Us</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
         <div id="contact us">
           <h1>Contact Us</h1>
           <form action="" class="contact-form">
