@@ -48,17 +48,17 @@
           <h1>Contact Us</h1>
           <form action="" class="contact-form">
             <br />
-            <label for="fname">First Name:</label> <br />
-            <input type="text" name="fname" id="fname" required />
+            <label for="fname-contact">First Name:</label> <br />
+            <input type="text" name="fname" id="fname-contact" required />
             <br />
-            <label for="lname">Last Name:</label> <br />
-            <input type="text" name="lname" id="lname" required />
+            <label for="lname-contact">Last Name:</label> <br />
+            <input type="text" name="lname" id="lname-contact" required />
             <br />
-            <label for="email">Email:</label> <br />
-            <input type="email" name="email" id="email" required />
+            <label for="email-contact">Email:</label> <br />
+            <input type="email" name="email" id="email-contact" required />
             <br />
-            <label for="topic">Topic:</label> <br />
-            <input type="text" name="topic" id="topic" required />
+            <label for="topic-contact">Topic:</label> <br />
+            <input type="text" name="topic" id="topic-contact" required />
             <br />
             <label for="input-msg">Message:</label> <br />
             <textarea
@@ -76,27 +76,29 @@
         </div>
         <div id="contact-information">
           <h1>Contact Information</h1>
-          <p style="font-weight: bold;">
+          <p style="font-weight: bold; text-align: center;">
             This is where our restaurant is located. Our offices are in the same
             place.
           </p>
           <br />
-          <iframe
-            id="google-map-contact"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d826.252898980417!2d-118.40008591187187!3d34.069216998781656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbf8bba37cb1%3A0x42f88b03385d2c5b!2s9400%20Dayton%20Way%2C%20Beverly%20Hills%2C%20CA%2090210%2C%20USA!5e0!3m2!1sen!2sbg!4v1592763983546!5m2!1sen!2sbg"
-            frameborder="0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
-          <p style="font-weight: bold;">
-            9400 Dayton Way, <br />
-            Beverly Hills, <br />
-            CA 90210, <br />
-            USA <br />
-            Tel: 000-000-0000
-          </p>
-          <p>
+          <div id="map">
+            <iframe
+              id="google-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d826.252898980417!2d-118.40008591187187!3d34.069216998781656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbf8bba37cb1%3A0x42f88b03385d2c5b!2s9400%20Dayton%20Way%2C%20Beverly%20Hills%2C%20CA%2090210%2C%20USA!5e0!3m2!1sen!2sbg!4v1592763983546!5m2!1sen!2sbg"
+              frameborder="0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+            <p style="font-weight: bold;">
+              9400 Dayton Way, <br />
+              Beverly Hills, <br />
+              CA 90210, <br />
+              USA <br />
+              Tel: 000-000-0000
+            </p>
+          </div>
+          <p style="text-align: center;">
             For any questions you can send us a message through the website
             form, contact us at our restaurant, or call us. In addition, check
             our

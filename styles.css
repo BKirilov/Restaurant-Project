@@ -613,25 +613,33 @@ footer {
 
 /* Privacy-Policy - policy.html  */
 
-#policy-text h1,
-p {
+#policy-text {
   text-align: center;
 }
 
 #policy-text ol {
   padding-left: 0.5em;
-  text-align: left;
+  width: 45%;
+  margin-left: 28%;
+}
+
+#policy-text p {
+  width: 45%;
+  height: auto;
+  margin-left: 28%;
 }
 
 #policy-text ol li {
   list-style-type: disc;
   list-style-position: inside;
-  margin-left: 1em;
+  text-align: center;
 }
 
 #privacy-policy {
   margin-bottom: 30px;
 }
+
+/* About Page - about.html */
 
 #about {
   max-width: 100%;
@@ -639,60 +647,12 @@ p {
   margin-bottom: 60px;
 }
 
-.three-images {
-  margin-top: 25px;
-  height: 50vh;
+.about h1 {
+  font-size: 2em;
 }
 
-.three-images button {
-  box-shadow: 0px 10px 14px -7px #276873;
-  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-  background-color: #599bb3;
-  border-radius: 8px;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 13px 32px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #3d768a;
-  position: relative;
-  top: 250px;
-}
-
-.three-images button:hover {
-  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-  background-color: #408c99;
-}
-
-.three-images button:active {
-  position: relative;
-  top: 1px;
-}
-
-.image {
-  float: left;
-  width: 33.2%;
-  background-size: cover;
-  height: inherit;
-  text-align: center;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin-top: 15px;
-}
-
-.image h1 {
-  font-size: x-large;
-  padding: 0px;
-  margin-top: 8px;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: white;
-  border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.2);
+.about {
+  padding: 0.5px;
 }
 
 #image-left {
@@ -707,48 +667,46 @@ p {
   background-image: url(images/private-dinning.jpg);
 }
 
-.three-images:after {
-  content: "";
-  display: table;
-  clear: both;
+/* start of media for about.html */
+
+@media (max-width: 1350px) {
+  .about h1 {
+    font-size: 1.25em;
+  }
+  .about {
+    padding-left: 0.5px;
+  }
 }
 
-.content-about {
-  margin-bottom: 0px;
+@media (max-width: 1000px) {
+  .about h1 {
+    font-size: 1em;
+    margin: 8px 30px 0 30px;
+  }
 }
 
-div.gallery-about {
-  text-align: center;
-  display: table;
-  width: fit-content;
-}
-#full-a-gallery {
-  font-size: 25px;
-  height: 242px;
-  width: 323px;
-  background: grey;
-  margin: 0px;
+@media (max-width: 850px) {
+  .about h1 {
+    font-size: 1em;
+    margin: 8px 20px 0 20px;
+  }
 }
 
-#full-a-gallery h3 {
-  letter-spacing: 0.6px;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 24px;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  top: 60px;
+@media (max-width: 750px) {
+  #about {
+    margin-bottom: -100px;
+  }
 }
 
-.about-pictures {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  background-size: cover;
-  position: relative;
-  left: 120px;
+@media (max-width: 600px) {
+  #about {
+    margin-bottom: 0px;
+  }
 }
+
+/* end of media for about.html */
+
+/* Contact Page - contact.html */
 
 .contact-content {
   margin-bottom: 30px;
@@ -763,7 +721,7 @@ label {
 }
 
 input {
-  width: 30%;
+  width: 35%;
   height: 20px;
 }
 
@@ -797,13 +755,31 @@ input {
   margin-top: 30px;
 }
 
-#google-map-contact {
-  width: 100%;
-  height: 50vh;
+#input-msg {
+  min-width: 500px;
+  min-height: 150px;
+  max-width: 900px;
+  max-height: 200px;
+}
+/* start of media for contact page */
+
+@media (max-width: 900px) {
+  #input-msg {
+    min-width: 300px;
+    min-height: 100px;
+    max-width: 450px;
+    max-height: 150px;
+  }
 }
 
+/* end of media for contact page */
+
+/* FAQ Page - faq.html */
+
 #faq {
-  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  text-align: justify;
 }
 
 #faq-content {
@@ -813,8 +789,20 @@ input {
 #faq ol li {
   list-style-type: disc;
   list-style-position: inside;
-  margin-left: 1em;
 }
+
+/* start of media for faq.html */
+
+@media (max-width: 600px) {
+  #faq {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+/* end of media for faq.html */
+
+/* Recipes Page - 10m-burger.html; beef-wellington.html; grilled-salmon.html; */
 
 .recipe-page {
   display: block;
@@ -976,6 +964,21 @@ section.recipe-page .recipe-instructions h3 {
   color: #101010;
 }
 
+/* start of media for recipes page */
+
+@media (max-width: 600px) {
+  .recipe-title {
+    margin: 20px;
+  }
+  .recipe-title h2 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2;
+  }
+}
+
+/* end of media for recipes page */
+
 /* Careers - careers.html */
 
 .content-careers {
@@ -1066,7 +1069,7 @@ section.recipe-page .recipe-instructions h3 {
   background-image: url(images/careers-management.jpg);
 }
 
-.gallery-careers-table {
+.gallery-table {
   height: 60vh;
 }
 
@@ -1075,7 +1078,7 @@ section.recipe-page .recipe-instructions h3 {
   padding: 0;
 }
 
-.career-gallery-column {
+.gallery-column {
   float: left;
   width: 25%;
   height: 100%;
@@ -1083,7 +1086,7 @@ section.recipe-page .recipe-instructions h3 {
   text-align: center;
 }
 
-.gallery-careers-table h1 {
+.gallery-table h1 {
   font-size: 2.5em;
   padding: 0;
   margin: 35px 400px 25px 400px;
@@ -1091,7 +1094,7 @@ section.recipe-page .recipe-instructions h3 {
   border: 1px solid black;
 }
 
-.career-gallery-column img {
+.gallery-column img {
   max-width: 100%;
   height: auto;
 }
@@ -1130,7 +1133,7 @@ section.recipe-page .recipe-instructions h3 {
     height: 100px;
   }
 
-  .gallery-careers-table {
+  .gallery-table {
     height: 400px;
   }
 
@@ -1140,12 +1143,12 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 @media (max-width: 950px) {
-  .gallery-careers-table h1 {
+  .gallery-table h1 {
     font-size: 1.75em;
     margin: 25px 200px 25px 200px;
   }
 
-  .gallery-careers-table {
+  .gallery-table {
     height: 450px;
   }
 
@@ -1159,11 +1162,11 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 @media (max-width: 600px) {
-  .gallery-careers-table {
+  .gallery-table {
     height: 210px;
   }
 
-  .gallery-careers-table h1 {
+  .gallery-table h1 {
     font-size: 1.5em;
     margin: 25px 150px 25px 150px;
   }
