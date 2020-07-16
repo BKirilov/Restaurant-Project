@@ -61,7 +61,7 @@
         <div class="reserve-row">
           <div class="reserve-column">
             <img src="images/reserve-big-image.jpg" alt="" />
-            <img src="images/reserve-big-image2.jpg" alt="" />
+            <img src="images/reserve-big-image2-mobile.jpg" alt="" />
           </div>
         </div>
         <div class="reserve-row">
@@ -77,16 +77,23 @@
               </select>
               <br />
               <label for="date">Date:</label> <br />
-              <input type="date" id="date" required />
+              <input type="date" id="date" class="reserve-input" required />
               <br />
               <label for="time">Time:</label><br />
-              <input type="time" id="time" required />
+              <input type="time" id="time" class="reserve-input" required />
               <br />
               <label for="size">Party Size:</label> <br />
-              <input type="number" id="size" max="25" required />
+              <input
+                type="number"
+                id="size"
+                max="25"
+                class="reserve-input"
+                required
+              />
               <br />
               <label for="fname">First Name:</label><br />
               <input
+                class="reserve-input"
                 type="text"
                 id="fname"
                 placeholder="Your First Name"
@@ -95,6 +102,7 @@
               <br />
               <label for="lname">Last Name:</label><br />
               <input
+                class="reserve-input"
                 type="text"
                 id="lname"
                 placeholder="Your Last Name"
@@ -103,6 +111,7 @@
               <br />
               <label for="email">Email:</label><br />
               <input
+                class="reserve-input"
                 type="email"
                 id="email"
                 placeholder="emailexample@mail.com"
@@ -111,6 +120,7 @@
               <br />
               <label for="phone">Phone:</label><br />
               <input
+                class="reserve-input"
                 type="tel"
                 id="phone"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
