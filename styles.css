@@ -1469,6 +1469,37 @@ section.recipe-page .recipe-instructions h3 {
   border: none;
 }
 
+/* start of media for menu.html */
+
+@media (max-width: 1100px) {
+  .above-menu-text {
+    font-size: 1.1em;
+    width: 60%;
+    margin-left: -30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .above-menu h1 {
+    margin: 25px 200px 0 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .above-menu-text {
+    font-size: 1em;
+    width: 75%;
+    margin-left: -37.5%;
+  }
+
+  .above-menu h1 {
+    margin: 25px 150px 0 150px;
+    font-size: 1.5em;
+  }
+}
+
+/* end of media for menu.html */
+
 /* Private Dining & Events - dining.html */
 
 .content-private {
