@@ -1533,7 +1533,7 @@ section.recipe-page .recipe-instructions h3 {
 
 .private-text-section p {
   font-size: 1.3em;
-  text-align: center;
+  text-align: justify;
   width: 50%;
   margin-left: 25%;
 }
@@ -1611,6 +1611,58 @@ section.recipe-page .recipe-instructions h3 {
   background-color: #bab1ba;
 }
 
+/* start of media for dining.html */
+
+@media (max-width: 1250px) {
+  .column-inside p {
+    font-size: 1em;
+  }
+
+  .private-button {
+    padding: 8px 24px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .private-row {
+    flex-direction: column;
+    margin-top: 470px;
+  }
+
+  .private-column {
+    width: 100%;
+  }
+
+  .col {
+    background-size: 1000px;
+  }
+
+  .content-private {
+    margin-bottom: 500px;
+  }
+
+  .column-inside {
+    margin-top: 100px;
+    height: 400px;
+  }
+
+  .private-text-section {
+    margin-bottom: -300px;
+  }
+
+  .private-text-section h1 {
+    font-size: 1.5em;
+  }
+
+  .private-text-section p {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* end of media for dining.html */
+
 /* Enquiry - enquire.html */
 
 .enquire-main-text {
@@ -1620,7 +1672,7 @@ section.recipe-page .recipe-instructions h3 {
 
 .enquire-main-text p {
   font-size: 1.2em;
-  text-align: center;
+  text-align: justify;
   width: 50%;
   margin-left: 25%;
 }
@@ -1668,13 +1720,12 @@ textarea {
   display: inline-block;
   cursor: pointer;
   color: #3a8a9e;
-  font-size: 24px;
+  font-size: 1.5em;
   padding: 10px 35px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #e1e2ed;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  margin-left: 42.5%;
+  width: 25%;
+  margin: 15px 0 15px 37.5%;
   text-transform: uppercase;
 }
 
@@ -1682,6 +1733,39 @@ textarea {
   background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
   background-color: #bab1ba;
 }
+
+.enquiry-btn-div {
+  margin-bottom: 20px;
+}
+
+#enquire-textarea {
+  max-width: 70%;
+  max-height: 150px;
+  min-width: 70%;
+}
+
+/* start of media for enquiry.html */
+
+@media (max-width: 1100px) {
+  #enquiry-form-btn {
+    font-size: 1em;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .enquire-main-text p {
+    width: 75%;
+    margin-left: 12.5%;
+  }
+}
+
+@media (max-width: 700px) {
+  #enquiry-form-btn {
+    font-size: 0.8em;
+  }
+}
+/* end of media for enquiry.html */
 
 /* Gallery - gallery.html */
 
@@ -1820,11 +1904,40 @@ textarea {
 }
 
 .social-media i {
-  font-size: 40px;
+  font-size: 2.5em;
   margin: 5px;
   padding: 5px;
   border-bottom: 1px solid black;
 }
+
+.social-media p {
+  font-size: 2em;
+}
+
+/* start of media for gallery.html */
+
+@media (max-width: 1350px) {
+  .prev,
+  .next {
+    bottom: 350px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .prev,
+  .next {
+    bottom: 280px;
+  }
+}
+
+@media (max-width: 700px) {
+  .prev,
+  .next {
+    bottom: 200px;
+  }
+}
+
+/* end of media for gallery.html */
 
 /* random global stuff */
 
