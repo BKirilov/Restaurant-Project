@@ -227,27 +227,27 @@ nav a.icon:hover {
 }
 
 .column button {
-  box-shadow: inset 0px 0px 14px -3px #f2fadc;
-  background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
-  background-color: #dbe6c4;
-  border-radius: 6px;
-  border: 1px solid black;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
   display: inline-block;
   cursor: pointer;
-  color: #5b6156;
-  font-family: Arial;
+  color: #3a8a9e;
   font-size: 20px;
-  font-weight: bold;
   padding: 6px 20px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ced9bf;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  text-transform: uppercase;
+  outline: none;
   position: relative;
   top: 17em;
 }
 
 .column button:hover {
-  background: linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
-  background-color: #9ba892;
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
 }
 
 .column h1 {
@@ -726,29 +726,26 @@ input {
 }
 
 #submit-button {
-  width: 100px;
-  font-weight: bold;
-  box-shadow: inset 0px 1px 3px 0px #91b8b3;
-  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
-  background-color: #768d87;
-  border-radius: 5px;
-  border: 1px solid #566963;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  color: #3a8a9e;
+  font-size: 18px;
+  padding: 5px 5px;
   text-decoration: none;
-  text-shadow: 0px -1px 0px #2b665e;
-  text-align: center;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  text-transform: uppercase;
+  outline: none;
+  width: 120px;
 }
 
 #submit-button:hover {
-  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-  background-color: #6c7c7c;
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
 }
 
 #contact-information {
@@ -1010,7 +1007,7 @@ section.recipe-page .recipe-instructions h3 {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 50px;
-  color: teal;
+  color: white;
 }
 
 .career-row {
@@ -1026,24 +1023,28 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 .career-column button {
-  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-  background-color: #599bb3;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+  color: #3a8a9e;
   font-size: 20px;
-  font-weight: bold;
   padding: 14px 35px;
   text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  text-transform: uppercase;
+  outline: none;
   position: relative;
   top: 150px;
   border: none;
 }
 
 .career-column button:hover {
-  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-  background-color: #408c99;
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
 }
 
 .career-column button:active {
@@ -1244,25 +1245,25 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 #reserve-button {
-  box-shadow: 0px 1px 0px 0px #f0f7fa;
-  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-  background-color: #33bdef;
-  border-radius: 6px;
-  border: 1px solid #057fd0;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+  color: #3a8a9e;
   font-size: 20px;
-  font-weight: bold;
   padding: 10px 100px;
   text-decoration: none;
-  text-shadow: 0px -1px 0px #5b6178;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  text-transform: uppercase;
+  outline: none;
 }
 
 #reserve-button:hover {
-  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-  background-color: #019ad2;
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
 }
 
 /* start of media for reserve.html */
@@ -1356,25 +1357,25 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 .restaurants-book-btn {
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-  background-color: #ffffff;
-  border-radius: 6px;
-  border: 1px solid #dcdcdc;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
   display: inline-block;
   cursor: pointer;
-  color: #666666;
-  font-family: Arial;
+  color: #3a8a9e;
   font-size: 16px;
-  font-weight: bold;
   padding: 8px 32px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  text-transform: uppercase;
+  outline: none;
 }
 
 .restaurants-book-btn:hover {
-  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  background-color: #f6f6f6;
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
 }
 
 /* start of media for restaurants.html */
