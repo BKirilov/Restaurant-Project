@@ -283,6 +283,10 @@ nav a.icon:hover {
   .column:last-child {
     border-right: 1px solid black;
   }
+
+  #recipe-right {
+    padding-left: 9px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -296,11 +300,31 @@ nav a.icon:hover {
     top: 13em;
     font-size: 1em;
   }
+
+  #recipe-right {
+    padding-left: 7px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #recipe-right {
+    padding-left: 5.5px;
+  }
 }
 
 @media (max-width: 850px) {
   .column h1 {
     font-size: 1em;
+  }
+
+  #recipe-right {
+    padding-left: 4.5px;
+  }
+}
+
+@media (max-width: 750px) {
+  #recipe-right {
+    padding-left: 3.5px;
   }
 }
 
@@ -315,10 +339,13 @@ nav a.icon:hover {
     margin-top: 0;
   }
   .column h1 {
-    font-size: 2em;
+    font-size: 1.25em;
   }
   .column button {
     top: 9em;
+  }
+  #recipe-right {
+    padding-left: 0;
   }
 }
 /* end of media for the recipe columns on the home page */
@@ -381,7 +408,7 @@ nav a.icon:hover {
 @media (max-width: 600px) {
   #gordon-tips h1 {
     font-size: 1.25em;
-    margin: 15px 150px 0 150px;
+    margin: 15px 120px 0 120px;
   }
 
   #gordon-video {
@@ -390,7 +417,31 @@ nav a.icon:hover {
   }
 }
 
+@media (max-width: 450px) {
+  #gordon-tips h1 {
+    font-size: 1em;
+    margin: 15px 105px 15px 105px;
+  }
+
+  #gordon-video {
+    height: 200px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 365px) {
+  #gordon-tips h1 {
+    font-size: 0.8em;
+    margin: 15px 80px 15px 80px;
+  }
+
+  #gordon-video {
+    height: 180px;
+    width: 300px;
+  }
+}
 /* end of media for gordon tips */
+
 #map {
   text-align: center;
   font-size: 20px;
@@ -433,12 +484,40 @@ nav a.icon:hover {
 @media (max-width: 600px) {
   #map h1 {
     font-size: 1.25em;
-    margin: 15px 150px 25px 150px;
+    margin: 15px 120px 25px 120px;
+  }
+
+  #map p {
+    font-size: 0.8em;
   }
 
   #google-map {
     width: 400px;
     height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  #map h1 {
+    font-size: 1em;
+    margin: 15px 105px 15px 105px;
+  }
+
+  #google-map {
+    height: 200px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 365px) {
+  #map h1 {
+    font-size: 0.8em;
+    margin: 15px 80px 15px 80px;
+  }
+
+  #google-map {
+    height: 180px;
+    width: 300px;
   }
 }
 
@@ -540,11 +619,28 @@ nav a.icon:hover {
 
   #social-media h1 {
     font-size: 1.25em;
-    margin: 50px 150px 25px 150px;
+    margin: 50px 120px 10px 120px;
   }
 
   #social-media p {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 450px) {
+  #social-media h1 {
+    font-size: 1em;
+    margin: 25px 105px 10px 105px;
+  }
+
+  #social-media i {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 365px) {
+  #social-media h1 {
+    margin: 25px 80px 10px 80px;
   }
 }
 /* end of media for social media section on Home - index.html */
@@ -583,6 +679,13 @@ nav a.icon:hover {
   }
 }
 
+@media (max-width: 450px) {
+  .before-footer nav ul li {
+    font-size: 0.7em;
+    width: 20.7%;
+  }
+}
+
 /* end of media for before-footer */
 
 footer {
@@ -609,6 +712,17 @@ footer {
   }
 }
 
+@media (max-width: 450px) {
+  footer p {
+    font-size: 0.45em;
+  }
+}
+
+@media (max-width: 365px) {
+  footer p {
+    font-size: 0.36em;
+  }
+}
 /* end of media for footer */
 
 /* Privacy-Policy - policy.html  */
@@ -1157,8 +1271,8 @@ section.recipe-page .recipe-instructions h3 {
   }
 
   .gallery-table h1 {
-    font-size: 1.5em;
-    margin: 25px 150px 25px 150px;
+    font-size: 1.25em;
+    margin: 25px 120px 25px 120px;
   }
 
   .gallery-row {
@@ -1186,6 +1300,19 @@ section.recipe-page .recipe-instructions h3 {
 
   .content-careers {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery-table h1 {
+    font-size: 1em;
+    margin: 25px 105px 25px 105px;
+  }
+}
+
+@media (max-width: 365px) {
+  .gallery-table h1 {
+    margin: 25px 80px 25px 80px;
   }
 }
 
