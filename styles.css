@@ -871,6 +871,7 @@ input {
   min-height: 150px;
   max-width: 900px;
   max-height: 200px;
+  margin-top: 0;
 }
 /* start of media for contact page */
 
@@ -883,6 +884,21 @@ input {
   }
 }
 
+@media (max-width: 450px) {
+  #input-msg{
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 330px;
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 365px) {
+  #input-msg {
+    max-width: 250px;
+    max-height: 100px;
+  }
+}
 /* end of media for contact page */
 
 /* FAQ Page - faq.html */
@@ -1623,6 +1639,20 @@ section.recipe-page .recipe-instructions h3 {
   .above-menu h1 {
     margin: 25px 150px 0 150px;
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 450px) {
+  .above-menu h1{
+    margin: 25px 105px 0 105px
+  }
+
+  .menu-heading{
+    font-size: 0.8em;
+  }
+
+  .menu-item-details{
+    font-size: 0.9em;
   }
 }
 
