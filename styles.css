@@ -206,6 +206,12 @@ nav a.icon:hover {
   max-width: 100%;
 }
 
+@media (max-width: 450px) {
+  #main-img {
+    height: 300px;
+  }
+}
+
 .row {
   height: 450px;
 }
@@ -885,7 +891,7 @@ input {
 }
 
 @media (max-width: 450px) {
-  #input-msg{
+  #input-msg {
     min-width: 200px;
     min-height: 100px;
     max-width: 330px;
@@ -1550,6 +1556,28 @@ section.recipe-page .recipe-instructions h3 {
   }
 }
 
+@media (max-width: 450px) {
+  .restaurants-book-btn {
+    padding: 5px 9px;
+    font-size: 9px;
+  }
+
+  .restaurant-column h4 {
+    font-size: 0.9em;
+  }
+
+  .restaurant-column p {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 365px) {
+  .restaurants-book-btn {
+    padding: 5px 5px;
+    box-shadow: none;
+  }
+}
+
 /* end of media for restaurants.html */
 
 /* Menu - menu.html */
@@ -1643,15 +1671,15 @@ section.recipe-page .recipe-instructions h3 {
 }
 
 @media (max-width: 450px) {
-  .above-menu h1{
-    margin: 25px 105px 0 105px
+  .above-menu h1 {
+    margin: 25px 105px 0 105px;
   }
 
-  .menu-heading{
+  .menu-heading {
     font-size: 0.8em;
   }
 
-  .menu-item-details{
+  .menu-item-details {
     font-size: 0.9em;
   }
 }
@@ -1724,27 +1752,33 @@ section.recipe-page .recipe-instructions h3 {
 
 .wedding {
   background-image: url(images/private-dinning-wedding.jpg);
+  background-position: center;
 }
 
 .group-dining {
   background-image: url(images/private-dining-group_dining.jpg);
+  background-position: center;
 }
 
 .parties {
   background-image: url(images/private-dinning-parties.jpg);
+  background-position: center;
 }
 
 .filming-requests {
   background-image: url(images/private-dinning-filming.jpg);
   background-size: initial;
+  background-position: center;
 }
 
 .meetings {
   background-image: url(images/private-dinning-meetings.jpg);
+  background-position: center;
 }
 
 .mitzvah {
   background-image: url(images/private-dinning.jpg);
+  background-position: center;
 }
 
 .private-button {
@@ -1801,7 +1835,7 @@ section.recipe-page .recipe-instructions h3 {
   }
 
   .column-inside {
-    margin-top: 100px;
+    margin-top: 90px;
     height: 400px;
   }
 
@@ -1819,6 +1853,15 @@ section.recipe-page .recipe-instructions h3 {
   }
 }
 
+@media (max-width: 450px) {
+  .underline-private {
+    max-width: 200px;
+  }
+
+  .column-inside h1 {
+    font-size: 1.5em;
+  }
+}
 /* end of media for dining.html */
 
 /* Enquiry - enquire.html */
