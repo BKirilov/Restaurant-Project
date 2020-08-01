@@ -1841,7 +1841,7 @@ section.recipe-page .recipe-instructions h3 {
 @media (max-width: 1000px) {
   .private-row {
     flex-direction: column;
-    margin-top: 470px;
+    margin-top: 480px;
   }
 
   .private-column {
@@ -1858,11 +1858,11 @@ section.recipe-page .recipe-instructions h3 {
 
   .column-inside {
     margin-top: 90px;
-    height: 380px;
+    height: 400px;
   }
 
   .private-text-section {
-    margin-bottom: -300px;
+    margin-bottom: -350px;
   }
 
   .private-text-section h1 {
@@ -1886,6 +1886,10 @@ section.recipe-page .recipe-instructions h3 {
 
   .col {
     background-size: cover;
+  }
+
+  .private-column {
+    height: 100%;
   }
 }
 /* end of media for dining.html */
