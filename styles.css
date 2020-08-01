@@ -268,16 +268,19 @@ nav a.icon:hover {
 #recipe-left {
   background-image: url(images/10m-burger-big-mobile.jpg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #recipe-mid {
   background-image: url(images/beef-wellington.jpg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #recipe-right {
   background-image: url(images/grilled-salmon-long_version.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   padding-left: 3px;
 }
 
@@ -777,14 +780,20 @@ footer {
 
 #image-left {
   background-image: url(images/restaurants&bars.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #image-mid {
   background-image: url(images/chef-careers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #image-right {
   background-image: url(images/private-dinning.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* start of media for about.html */
@@ -1192,18 +1201,26 @@ section.recipe-page .recipe-instructions h3 {
 
 #front-of-house {
   background-image: url(images/careers-front_of_house.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #chefs {
   background-image: url(images/careers-chefs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #support-office {
   background-image: url(images/careers-support_office.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #management {
   background-image: url(images/careers-management.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .gallery-table {
@@ -1758,27 +1775,32 @@ section.recipe-page .recipe-instructions h3 {
 .group-dining {
   background-image: url(images/private-dining-group_dining.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .parties {
   background-image: url(images/private-dinning-parties.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .filming-requests {
   background-image: url(images/private-dinning-filming.jpg);
   background-size: initial;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .meetings {
   background-image: url(images/private-dinning-meetings.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .mitzvah {
   background-image: url(images/private-dinning.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .private-button {
@@ -1836,7 +1858,7 @@ section.recipe-page .recipe-instructions h3 {
 
   .column-inside {
     margin-top: 90px;
-    height: 400px;
+    height: 380px;
   }
 
   .private-text-section {
@@ -1860,6 +1882,10 @@ section.recipe-page .recipe-instructions h3 {
 
   .column-inside h1 {
     font-size: 1.5em;
+  }
+
+  .col {
+    background-size: cover;
   }
 }
 /* end of media for dining.html */
@@ -2134,6 +2160,17 @@ textarea {
   .prev,
   .next {
     bottom: 200px;
+  }
+}
+
+@media (max-width: 450px) {
+  .numbertext {
+    top: 50px;
+  }
+
+  .prev,
+  .next {
+    bottom: 150px;
   }
 }
 
